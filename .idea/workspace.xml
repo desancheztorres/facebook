@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def25f60-ec73-4d74-946a-66edc33c4508" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Scopes/ReverseScope.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/PostToTimelineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/PostToTimelineTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/RetrievePostsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/RetrievePostsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +180,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -198,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600700984460</updated>
       <workItem from="1600700985480" duration="2802000" />
-      <workItem from="1600764025466" duration="12472000" />
+      <workItem from="1600764025466" duration="13654000" />
     </task>
     <servers />
   </component>
@@ -217,6 +217,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="764" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1600781424270">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="764" y="191" key="#com.intellij.ide.util.MemberChooser/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600781424270" />
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600702487489">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -233,9 +237,9 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="500" height="445" key="SwitcherDM/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600703201191" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1600779222378">
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1600781504307">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600779222378" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600781504307" />
   </component>
 </project>
