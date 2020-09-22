@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 use App\Http\Resources\User as UserResource;
 
@@ -10,7 +11,7 @@ class Post extends JsonResource
     /**
      * Transform the resource into an array.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  Request  $request
      * @return array
      */
     public function toArray($request)
@@ -25,7 +26,7 @@ class Post extends JsonResource
                 ]
             ],
             'links' => [
-                'self' => url($this->path())
+                'self' => url('/posts/' . $this->id),
             ]
         ];
     }
