@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def25f60-ec73-4d74-946a-66edc33c4508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Scopes/ReverseScope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Nav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/RetrievePostsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/RetrievePostsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600700984460</updated>
       <workItem from="1600700985480" duration="2802000" />
-      <workItem from="1600764025466" duration="13654000" />
+      <workItem from="1600764025466" duration="14501000" />
     </task>
     <servers />
   </component>
@@ -237,9 +237,9 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="500" height="445" key="SwitcherDM/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600703201191" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1600781504307">
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1600782954709">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600781504307" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600782954709" />
   </component>
 </project>
