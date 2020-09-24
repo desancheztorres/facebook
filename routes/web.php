@@ -6,11 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-//Route::get('{any}', [AppController::class, 'index'])
-//    ->where('any', '.*')
-//    ->middleware('auth')
-//    ->name('home');
-
-Route::get('/', [AppController::class, 'index'])
+Route::get('{any}', [AppController::class, 'index'])
+    ->where('any', '^(?!api).*')
     ->middleware('auth')
     ->name('home');

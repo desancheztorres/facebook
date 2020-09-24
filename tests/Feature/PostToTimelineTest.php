@@ -49,7 +49,7 @@ class PostToTimelineTest extends TestCase
                 ]
             ],
             'links' => [
-                'self' => url('/posts/' . $post->id)
+                'self' => url($post->path())
             ]
         ]);
    }
