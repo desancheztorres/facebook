@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\UserPostController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:api')->group(function () {
@@ -10,5 +11,5 @@ Route::middleware('auth:api')->group(function () {
 
     Route::get('/users', [UserController::class, 'index']);
     Route::get('/users/{user}', [UserController::class, 'show']);
-
+    Route::get('/users/{user}/posts', [UserPostController::class, 'index']);
 });
