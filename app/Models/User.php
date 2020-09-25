@@ -39,6 +39,10 @@ class User extends Authenticatable {
         'email_verified_at' => 'datetime',
     ];
 
+    public function friends() {
+        return $this->belongsToMany(User::class, 'friends', 'friend_id', 'user_id');
+    }
+
     public function path()
     {
         return "/users/{$this->id}";
