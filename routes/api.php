@@ -1,10 +1,15 @@
 <?php
 
-use App\Http\Controllers\AuthUserController;
-use App\Http\Controllers\FriendRequestController;
-use App\Http\Controllers\PostController;
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\UserPostController;
+use App\Http\Controllers\
+{
+    AuthUserController,
+    FriendRequestController,
+    FriendRequestResponseController,
+    PostController,
+    UserController,
+    UserPostController,
+
+};
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:api')->group(function () {
@@ -18,4 +23,5 @@ Route::middleware('auth:api')->group(function () {
     Route::get('/users/{user}/posts', [UserPostController::class, 'index']);
 
     Route::post('/friend-request', [FriendRequestController::class, 'store']);
+    Route::post('/friend-request-response', [FriendRequestResponseController::class, 'store']);
 });

@@ -10,4 +10,8 @@ class Friend extends Model
     use HasFactory;
 
     protected $guarded = ['id'];
+
+    protected $dates = [
+        'confirmed_at'
+    ];
 }

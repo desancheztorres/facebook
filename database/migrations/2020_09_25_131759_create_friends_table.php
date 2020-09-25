@@ -21,6 +21,8 @@ class CreateFriendsTable extends Migration {
             $table->foreignId('friend_id')
                 ->constrained('users')
                 ->onDelete('cascade');
+            $table->tinyInteger('status')->nullable();
+            $table->timestamp('confirmed_at')->nullable();
             $table->timestamps();
         });
     }

@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="def25f60-ec73-4d74-946a-66edc33c4508" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FriendRequestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FriendRequestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Friend.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Friend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Friend.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Friend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_25_131759_create_friends_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_131759_create_friends_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/FriendsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/FriendsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +205,7 @@
       <workItem from="1600847385974" duration="1272000" />
       <workItem from="1600850218849" duration="9023000" />
       <workItem from="1600935491522" duration="6551000" />
-      <workItem from="1601023593460" duration="9496000" />
+      <workItem from="1601023593460" duration="12144000" />
     </task>
     <servers />
   </component>
@@ -242,17 +245,17 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="469" y="150" key="SettingsEditor/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601039676750" />
-    <state x="690" y="250" width="540" height="540" key="StructurePopup" timestamp="1601041463932">
+    <state x="690" y="250" width="540" height="540" key="StructurePopup" timestamp="1601047561313">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="690" y="250" width="540" height="540" key="StructurePopup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601041463932" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1601041462867">
+    <state x="690" y="250" width="540" height="540" key="StructurePopup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601047561313" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1601047175764">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601041462867" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1601043000943">
+    <state width="500" height="445" key="SwitcherDM/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601047175764" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1601047566486">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601043000943" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601047566486" />
   </component>
 </project>
