@@ -3,6 +3,8 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Validation\ValidationException;
+use Throwable;
 
 class Handler extends ExceptionHandler
 {
@@ -32,6 +34,13 @@ class Handler extends ExceptionHandler
      */
     public function register()
     {
-        //
+       //
+    }
+
+    public function render($request, Throwable $e)
+    {
+        if($e instanceof ValidationException) {
+            throw new ValidationErrorException(json_encode($e->errors()));
+        }
     }
 }

@@ -38,9 +38,9 @@ class FriendsTest extends TestCase {
                     'confirmed_at' => null,
                 ],
                 'links' => [
-                    'self' => url($anotherUser->path())
-                ]
-            ]
+                    'self' => url($anotherUser->path()),
+                ],
+            ],
         ]);
     }
 
@@ -59,8 +59,8 @@ class FriendsTest extends TestCase {
             'errors' => [
                 'code' => 404,
                 'title' => 'User Not found',
-                'detail' => 'Unable to locate the user with the given information.'
-            ]
+                'detail' => 'Unable to locate the user with the given information.',
+            ],
         ]);
     }
 
@@ -94,9 +94,9 @@ class FriendsTest extends TestCase {
                     'confirmed_at' => $friendRequest->confirmed_at->diffForHumans(),
                 ],
                 'links' => [
-                    'self' => url($anotherUser->path())
-                ]
-            ]
+                    'self' => url($anotherUser->path()),
+                ],
+            ],
         ]);
     }
 
@@ -117,13 +117,13 @@ class FriendsTest extends TestCase {
             'errors' => [
                 'code' => 404,
                 'title' => 'Friend Request Not found',
-                'detail' => 'Unable to locate the friend request with the given information.'
-            ]
+                'detail' => 'Unable to locate the friend request with the given information.',
+            ],
         ]);
 
     }
 
-    /** @test **/
+    /** @test * */
     public function only_the_recipient_can_accept_a_friend_request()
     {
         $this->actingAs($user = User::factory()->create(), 'api');
@@ -147,8 +147,21 @@ class FriendsTest extends TestCase {
             'errors' => [
                 'code' => 404,
                 'title' => 'Friend Request Not found',
-                'detail' => 'Unable to locate the friend request with the given information.'
-            ]
+                'detail' => 'Unable to locate the friend request with the given information.',
+            ],
         ]);
+    }
+
+    /** @test */
+    public function a_friend_id_is_required_for_friend_requests()
+    {
+        $response = $this->actingAs($user = User::factory()->create(), 'api')
+            ->post('/api/friend-request', [
+                'friend_id' => '',
+            ])->assertStatus(422);
+
+        $responseString = json_decode($response->getContent(), true);
+
+        $this->assertArrayHasKey('friend_id', $responseString['errors']['meta']);
     }
 }

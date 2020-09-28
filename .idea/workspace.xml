@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="def25f60-ec73-4d74-946a-66edc33c4508" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FriendRequestResponseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FriendRequestResponseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FriendRequestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FriendRequestController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/FriendsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/FriendsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,6 +204,7 @@
       <workItem from="1600850218849" duration="9023000" />
       <workItem from="1600935491522" duration="6551000" />
       <workItem from="1601023593460" duration="13355000" />
+      <workItem from="1601227318657" duration="3746000" />
     </task>
     <servers />
   </component>
@@ -234,6 +236,10 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="698" y="273" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1600944771636" />
+    <state x="508" y="396" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1601237727033">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="508" y="396" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.23.1440.877@0.23.1440.877" timestamp="1601237727033" />
     <state x="624" y="296" key="EditFileWatcherDialog" timestamp="1600764199719">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -246,13 +252,15 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="690" y="250" width="540" height="540" key="StructurePopup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601047561313" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1601047175764">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1601230031890">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1601230031890" />
     <state width="500" height="445" key="SwitcherDM/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601047175764" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1601048751595">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state x="469" y="216" width="670" height="607" key="search.everywhere.popup" timestamp="1601237448586">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="469" y="216" width="670" height="607" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601237448586" />
     <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1601048751595" />
   </component>
 </project>
